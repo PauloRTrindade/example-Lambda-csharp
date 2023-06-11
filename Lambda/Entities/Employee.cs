@@ -14,10 +14,5 @@ namespace Lambda.Entities
             Email = email;
             Salary = salary;
         }
-
-        public override string ToString()
-        {
-            return Name + ", " + Email + ", " + Salary.ToString("F2", CultureInfo.InvariantCulture);
-        }
     }
 }
